@@ -1,0 +1,66 @@
+
+
+/* menu_border_width - menu_border_width-alternate.css */
+
+div.navbar
+{
+	border-top-width:1px;
+	border-bottom-width:2px;
+}
+
+
+/* menu_border_color -  */
+
+
+
+/* logo_font - logo_font-great_vibes.css */
+
+#logo h1 > a
+{
+	font-family:'Great Vibes';
+	text-transform:capitalize;
+	font-size:56px;
+}
+
+
+/* slider_text_color -  */
+
+
+
+/* slideshow_text - slideshow_text-red_border.css */
+
+div.sequence h2
+{
+	background:transparent;
+	color:#f55064;
+}
+
+div.sequence h3
+{
+	background:transparent;
+	border:3px solid #f55064;
+	color:#f55064;
+	padding:20px;
+}
+
+div.sequence a.button
+{
+	padding: 7px 0px;
+	background:transparent;
+	border-bottom:3px solid #f55064;
+	color:#f55064;
+}
+
+div.sequence p {
+  color: #f55064;
+}
+
+
+/* slider_font - slider_font-vidaloka.css */
+
+.sequence h3
+{
+    font-family: 'Vidaloka','Lato','Open sans', Helvetica, Arial;
+    text-transform:uppercase;
+    /*font-size: 46px;*/
+}

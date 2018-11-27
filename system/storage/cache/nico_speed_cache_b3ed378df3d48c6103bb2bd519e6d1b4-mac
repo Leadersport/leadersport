@@ -1,0 +1,473 @@
+<!doctype html>
+<html dir="ltr" lang="ru">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<base href="http://saytest.ru/" />
+<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<!--script type="text/javascript" src="https://getfirebug.com/firebug-lite-debug.js"></script-->
+<!--[if lt IE 9]>
+<script type="text/javascript" src="catalog/view/theme/anne/js/respond.js"></script>
+<style>
+img.img-responsive {max-width:none;width:auto;}
+</style>
+<![endif]-->
+<!--[if gt IE 8]>
+<style>
+img.img-responsive {max-width:none;width:auto;}
+</style>
+<![endif]-->
+<link href='//fonts.googleapis.com/css?family=Montserrat:400,600,700%7COpen+Sans' rel='stylesheet' type='text/css'/>
+<script src="catalog/view/theme/anne/js/jquery-2.1.4.min.js"></script><script src="catalog/view/theme/anne/js/bootstrap.min.js"></script><script src="catalog/view/theme/anne/js/bootstrap-select.min.js"></script><script src="catalog/view/theme/anne/js/jquery.autocomplete.js"></script><script src="catalog/view/theme/anne/js/jquery.colorbox-min.js"></script><script src="catalog/view/theme/anne/js/cloud-zoom.1.0.3.js"></script><script src="catalog/view/theme/anne/js/jquery.flexslider.js"></script><script src="catalog/view/theme/anne/js/moment.js"></script><script src="catalog/view/theme/anne/js/bootstrap-datetimepicker.min.js"></script><script src="catalog/view/theme/anne/js/bootstrap-slider.min.js"></script><script src="catalog/view/theme/anne/js/js.cookie.js"></script><script src="catalog/view/theme/anne/js/main.js"></script><link href='catalog/view/theme/anne/css/bootstrap.css' rel='stylesheet' type='text/css' property='stylesheet'/><link href='catalog/view/theme/anne/css/bootstrap-select.min.css' rel='stylesheet' type='text/css' property='stylesheet'/><link href='catalog/view/theme/anne/css/style.css' rel='stylesheet' type='text/css' property='stylesheet'/><link href='catalog/view/theme/anne/css/colorbox.css' rel='stylesheet' type='text/css' property='stylesheet'/><link href='catalog/view/theme/anne/css/font-awesome.min.css' rel='stylesheet' type='text/css' property='stylesheet'/><link href='catalog/view/theme/anne/css/cloud-zoom.css' rel='stylesheet' type='text/css' property='stylesheet'/><link href='catalog/view/theme/anne/css/flexslider.css' rel='stylesheet' type='text/css' property='stylesheet'/><link href='catalog/view/theme/anne/css/bootstrap-datetimepicker.min.css' rel='stylesheet' type='text/css' property='stylesheet'/><link href='catalog/view/theme/anne/css/editor_settings.css' rel='stylesheet' type='text/css' property='stylesheet'/><script>
+jQuery(document).ready(function() {
+});var opencart_version =2302;var sticky_header =false;jQuery(document).ready(function() {;
+});
+</script>
+<style>
+#parallax_0
+{
+background-image:url("http://saytest.ru/image/cache/catalog/subs-bg-he-1800x465.png");
+margin:0px;
+margin-left:0px;
+margin-right:0px;
+}
+#parallax_0 > div
+{
+position:relative;
+padding:30px;
+padding-left:0px;
+padding-right:0px;
+}
+#parallax_0 > div::before
+{
+background-color: #333333;
+content: "";
+height: 100%;
+left: 0;
+opacity: 0;
+position: absolute;
+top: 0;
+width: 100%;
+z-index: 2;
+}</style><link href="http://saytest.ru/desktops/mac/" rel="canonical" /><link href="http://saytest.ru/image/catalog/cart.png" rel="icon" /> <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Oswald:300,400,500,600,700|Poppins:300,400,500,600,700&amp;subset=cyrillic" rel="stylesheet">
+<title>Mac</title>
+</head>
+<body>
+<div class="header">
+<div id="header" class="container2">
+<!-- div class="container" -->
+<div class="left col-sm-4 visible-md visible-lg">
+<!--
+<div class="search-select">
+<div class="search-icon"></div>
+</div>
+<div class="menu-select">
+<div class="menu-select-icon"></div>
+</div>
+-->
+</div>
+<div class="middle col-sm-6 col-md-4 logo-head">
+<div class="logo">
+<a href="http://saytest.ru/" class="image-logo">
+<img src="http://saytest.ru/image/catalog/logo.png" title="Leader sport" alt="Leader sport" class="img-responsive" />
+</a><h4 class="text-logo"><a href="http://saytest.ru/"><span>Leader sport</span></a></h4>
+</div>
+</div>
+<div class="middle col-sm-6 col-md-4 head-right">
+<div class="reg"><a href="/index.php?route=account/login" title="Регистрация"><span class="user-icon"></span> <span class="hidden-xs hidden-sm hidden-md"></span></a></div>
+<div class="wh"><a href="/index.php?route=account/wishlist" title="В избранном (0)"><span class="heart-icon"></span> </a></div>
+<div class="cart-head cart">
+<span class="cart-total-head">0</span>
+<a id="cart" href="http://saytest.ru/cart/" class="dropdown-toggle" data-toggle="dropdown" role="button"><span class="cart-icon"></span>
+</a>
+<div class="cart-info dropdown-menu pull-right" role="menu">
+<div class="shopping-cart-header">
+<h5 class="cart-title">Корзина</span></h5>
+</div>
+<div class="empty">Ваша корзина пуста!</div>
+</div>
+</div>
+<!-- /div -->
+</div>
+<div class="lider-menu">
+<div class="search-col clearfix">
+<form action="/" class="navbar-form navbar-search navbar-right">
+<div class="input-group">
+<button type="submit" class="icon-search"></button>
+<div class="search-100">
+<input type="text" name="search" class="search-query1 col-xs-4" autocomplete="off" placeholder="Поиск" value="" />
+</div>
+</div>
+</form>
+</div>
+<!--cols:12 -->
+<div class="navbar yamm ">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<div class="navbar-header">
+<div class="icons-bar">
+<!--<span class="sr-only">Toggle navigation</span>-->
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</div>
+<div class="navbar-brand visible-xs">Меню</div> </div>
+</button>
+<div class="navbar-collapse collapse">
+<ul class="nav navbar-nav">
+<!-- li><a href=""><span class="home">&#8962;</span></a></li -->
+<li class="mega yamm-fw dropdown "
+>
+<a href=""
+data-toggle="dropdown" class="dropdown-toggle">
+<b class="font_icon fa fa-barss"></b> Категории
+<b class="fa fa-caret-down"></b> </a>
+<ul class="dropdown-menu ">
+<li>
+<!-- Content container to add padding -->
+<div class="yamm-content clearfix">
+<div class="row">
+<ul class="col-sm-3 list-unstyled">
+<li>
+<p class="main-cat"><a href="http://saytest.ru/desktops/"><strong>Desktops</strong></a></p>
+</li>
+<li><a href="http://saytest.ru/desktops/pc/">PC</a></li>
+<li><a href="http://saytest.ru/desktops/mac/">Mac</a></li>
+</ul>
+<ul class="col-sm-3 list-unstyled">
+<li>
+<p class="main-cat"><a href="http://saytest.ru/laptop-notebook/"><strong>Laptops &amp; Notebooks</strong></a></p>
+</li>
+<li><a href="http://saytest.ru/laptop-notebook/macs/">Macs</a></li>
+<li><a href="http://saytest.ru/laptop-notebook/windows/">Windows</a></li>
+</ul>
+<ul class="col-sm-3 list-unstyled">
+<li>
+<p class="main-cat"><a href="http://saytest.ru/component/"><strong>Components</strong></a></p>
+</li>
+<li><a href="http://saytest.ru/component/mouse/">Mice and Trackballs</a></li>
+<li><a href="http://saytest.ru/component/monitor/">Monitors</a></li>
+<li><a href="http://saytest.ru/component/printer/">Printers</a></li>
+<li><a href="http://saytest.ru/component/scanner/">Scanners</a></li>
+<li><a href="http://saytest.ru/component/web-camera/">Web Cameras</a></li>
+</ul>
+<ul class="col-sm-3 list-unstyled">
+<li>
+<p class="main-cat"><a href="http://saytest.ru/mp3-players/"><strong>MP3 Players</strong></a></p>
+</li>
+<li><a href="http://saytest.ru/mp3-players/test11/">test 11</a></li>
+<li><a href="http://saytest.ru/mp3-players/test12/">test 12</a></li>
+<li><a href="http://saytest.ru/mp3-players/test15/">test 15</a></li>
+<li><a href="http://saytest.ru/mp3-players/test16/">test 16</a></li>
+<li><a href="http://saytest.ru/mp3-players/test4/">test 4</a></li>
+</ul>
+</div><div class="row"></div><div class="row"> <ul class="col-sm-3 list-unstyled">
+<li>&nbsp;</li>
+<li><a href="http://saytest.ru/tablet/"><strong>Tablets</strong></a></li>
+<li><a href="http://saytest.ru/software/"><strong>Software</strong></a></li>
+<li><a href="http://saytest.ru/smartphone/"><strong>Phones &amp; PDAs</strong></a></li>
+<li><a href="http://saytest.ru/camera/"><strong>Cameras</strong></a></li>
+</ul>
+</div>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</div><!-- /.navbar-collapse -->
+</div>
+<!--cols:12 -->
+<div class="pull-right hide_on_mobile">
+<div class="dropdown login-box">
+<a data-toggle="dropdown" class="btn btn-link dropdown-toggle" role="button">
+<i class="fa fa-user"></i>
+<span class="hidden-xs hidden-sm hidden-md">login</span> <i class="fa fa-chevron-down"></i></a>
+<div role="menu" class="dropdown-menu">
+<form action="http://saytest.ru/login/" method="post" enctype="multipart/form-data">
+<div class="form-group">
+<label class="control-label" for="input-email">E-Mail</label>
+<input type="text" name="email" value="" placeholder="E-Mail" id="input-email" class="form-control" />
+</div>
+<div class="form-group">
+<label class="control-label" for="input-password">Пароль</label>
+<input type="password" name="password" value="" placeholder="Пароль" id="input-password" class="form-control" />
+</div>
+<input type="submit" value="Войти" class="btn btn-default" />
+<a href="http://saytest.ru/forgot-password/">Забыли пароль?</a>
+</form>
+<h3></h3>
+<a href="http://saytest.ru//index.php?route=module/nicosocialauth&amp;provider=Google">
+<span class="fa-stack fa-lg">
+<i class="fa fa-square fa-stack-2x"></i>
+<i class="fa fa-google fa-stack-1x fa-inverse"></i>
+</span>
+</a>
+<a href="http://saytest.ru//index.php?route=module/nicosocialauth&amp;provider=Facebook">
+<span class="fa-stack fa-lg">
+<i class="fa fa-square fa-stack-2x"></i>
+<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+</span>
+</a>
+<h3>Новый клиент</h3>
+<a href="http://saytest.ru/create-account/" class="btn btn-default">Регистрация</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="notification"></div>
+<div class="page-container">
+<div class="top-banner bgcolor">
+<div class="container">
+<div class="title-wrap">
+<div class="title-wrap-inner">
+<div class="cat_header">
+<h2>Mac</h2>
+</div>
+<div class="path">
+<ul class="breadcrumb">
+<li><a href="http://saytest.ru/"><i class="fa fa-home"></i></a></li>
+<li><a href="http://saytest.ru/desktops/">Desktops</a></li>
+<li><a href="http://saytest.ru/desktops/mac/">Mac</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="shop-section">
+<div class="container">
+<div class="top-container">
+<div class="row">
+<!--cols:8 -->
+<div class="col-md-8 ">
+<div class="col-sm-3">
+<span class="badge">new</span>
+<div class="two-grid-1">Mountain bike</div>
+<div class="two-grid-3">Track Speed Concept</div>
+<div class="two-grid-button"><a href="#">More info</a></div>
+</div>
+<div class="col-sm-9 skeyt-cat">
+<img src="image/skeyt1.png">
+</div>
+</div>
+<!--cols:4 -->
+<div class="col-md-4 ">
+<div class="col-sm-5">
+<span class="badge">sale</span>
+<div class="two-grid-1">Down Jacket&gt;</div>
+<div class="two-grid-3">Sale Collection<br>2015</div>
+<div class="two-grid-button"><a href="#">More info</a></div><a href="#">
+</a></div><a href="#">
+<div class="perchatka-img">
+<img src="image/perchatka.png">
+</div>
+</a></div>
+</div><div class="row">
+</div>
+</div>
+<div class="row white-bg"> <div class="col-md-3 left-menu">
+<div class="panel-heading">Фильтр</div>
+<div class="panel panel-default nico_filters">
+<div class="list-group group">
+</div>
+<div class="panel-footer text-right" style="display:none">
+<button type="button" id="button-filter" class="btn btn-primary">Поиск</button>
+</div>
+</div>
+<script type="text/javascript"><!--
+function nico_filter_change()
+{
+filters = {};
+filter_text = '';
+action = 'http://saytest.ru/desktops/mac/';
+$('.nico_filters input:checked').each(function(element) {
+name = this.name.replace('[]','');
+if (typeof filters[name] == 'undefined') filters[name] = [];
+filters[name].push(this.value);
+});
+for(filter_name in filters)
+{
+filter_text += '&' + filter_name + '=';
+first = true;
+for (filter in filters[filter_name])
+{
+if (!first) filter_text += ',';
+first = false;
+filter_text += filters[filter_name][filter];
+}
+}
+price = $("#price-slider").slider('getValue');
+if (price[0] != $("#price-slider").attr('data-slider-min') || price[1] != $("#price-slider").attr('data-slider-max')) filter_text += '&filter_price_min=' + price[0] + '&filter_price_max=' + price[1];
+if (filters['filter_category']) action += '&path=' + parseInt(filters['filter_category']);
+location = action + filter_text;
+}
+$('#button-filter').on('click', nico_filter_change);
+$("#price-slider").on('slideStop', function() {setTimeout(nico_filter_change, 1500)});
+var _filter_timeout;
+$('.nico_filters input').on('click', function()
+{
+clearTimeout(_filter_timeout);
+_filter_timeout = setTimeout(function () {
+$('#button-filter').click();
+}, 1500);
+});
+//--></script>
+</div>
+<div id="content" class="col-sm-9">
+<div class="row sort_show">
+<div class="col-md-4 text-right first-row">
+<label class="control-label" for="input-sort">Сортировка:</label><select id="input-sort" class="form-control col-sm-3 selectpicker" onchange="location = this.value;">
+<option value="http://saytest.ru/desktops/mac/?sort=p.sort_order&amp;order=ASC" selected="selected">По умолчанию</option>
+<option value="http://saytest.ru/desktops/mac/?sort=pd.name&amp;order=ASC">Название (А - Я)</option>
+<option value="http://saytest.ru/desktops/mac/?sort=pd.name&amp;order=DESC">Название (Я - А)</option>
+<option value="http://saytest.ru/desktops/mac/?sort=p.price&amp;order=ASC">Цена (низкая &gt; высокая)</option>
+<option value="http://saytest.ru/desktops/mac/?sort=p.price&amp;order=DESC">Цена (высокая &gt; низкая)</option>
+<option value="http://saytest.ru/desktops/mac/?sort=rating&amp;order=DESC">Рейтинг (начиная с высокого)</option>
+<option value="http://saytest.ru/desktops/mac/?sort=rating&amp;order=ASC">Рейтинг (начиная с низкого)</option>
+<option value="http://saytest.ru/desktops/mac/?sort=p.model&amp;order=ASC">Модель (А - Я)</option>
+<option value="http://saytest.ru/desktops/mac/?sort=p.model&amp;order=DESC">Модель (Я - А)</option>
+</select>
+</div>
+<div class="col-md-4 text-right two-row">
+<label class="control-label" for="input-limit">Показать:</label><select id="input-limit" class="form-control selectpicker" onchange="location = this.value;">
+<option value="http://saytest.ru/desktops/mac/?limit=15" selected="selected">15</option>
+<option value="http://saytest.ru/desktops/mac/?limit=25">25</option>
+<option value="http://saytest.ru/desktops/mac/?limit=50">50</option>
+<option value="http://saytest.ru/desktops/mac/?limit=75">75</option>
+<option value="http://saytest.ru/desktops/mac/?limit=100">100</option>
+</select>
+</div>
+<div class="col-md-4 three-row">
+<div class="btn-group">
+<button type="button" id="grid-view" class="btn btn-default" data-toggle="tooltip" title="Сетка"><span class="grid-icon"> </button>
+<button type="button" id="list-view" class="btn btn-default" data-toggle="tooltip" title="Список"><span class="list-icon"></button>
+</div>
+<div class="comp-cat"><a href="http://saytest.ru/compare-products/" id="compare-total">Сравнение: <span>0</span></a>
+</div>
+</div>
+</div>
+<div class="row products product-layout">
+<div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<div class="content registerbox">В данной категории нет товаров.</div>
+<div class="buttons">
+<div class="right"><a href="http://saytest.ru/" class="btn btn-primary button">Продолжить</a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var _nico_category_cols = 'col-xs-12 col-sm-6 col-md-4 col-lg-4';
+</script>
+<div id="social_band">
+<div class="container">
+<div class="row">
+<div id="social_about" class="col-md-12">
+<h3>About</h3>
+<div>
+<div><h3>LEADER SPORT</h3></div>
+<div class="text-footer">Aliquam erat volutpat. Maecenas vehicula sapien quis erat interdum aliquam non id <br>ante. </div>
+<div class="url-police"><a href="guides">Guides</a><a href="terms-of-use">Terms of Use</a><a href="privacy-policy">Privacy Policy</a></div>
+<div class="text-footer1">@2013 - 2018</div> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer black">
+<div class="">
+<!--cols:12 -->
+<div class=" ">
+<section id="parallax_0" class="module parallax white">
+<div>
+<div class="container">
+<!--cols:12 -->
+<div class=" ">
+<div class="newsletter clearfix">
+<!-- Begin MailChimp Signup Form -->
+<form action="/index.php?route=account/newsletter"
+class="validate" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
+<div class="text">
+<h3 class="newh3">Подпишитесь на нашу рассылку</h3>
+<div class="newadd"><div>Aliquam erat volutpat. Maecenas vehicula sapien quis erat interdum aliquam non id ante. Nullam tempus sollicitudin elit at consectetur arcu lobortis ac. Duis at mattis ex.</div></div> </div>
+<div class="inputs">
+<input class="email" id="mce-EMAIL" name="EMAIL" placeholder="Ваш почтовый ящик" required="" type="email" value="">
+<input class="button btn btn-primary" name="subscribe" type="submit" value="Tenetur dolorem alias ad veniam voluptatum cupiditate deleniti eos, quia accusamus, autem numquam.">&nbsp;
+<input type="hidden" value="1" name="newsletter">
+</div>
+</form>
+<!--End mc_embed_signup-->
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+<div class="container">
+<!-- div class="arrow"><b class="caret"></b></div -->
+<div class="row">
+<div class="col-md-5 col-sm-3">
+<div>
+<div>
+<div><h3>LEADER SPORT</h3></div>
+<div class="text-footer">Aliquam erat volutpat. Maecenas vehicula sapien quis erat interdum aliquam non id <br>ante. </div>
+<div class="url-police"> <a href="guides">Guides</a> <a href="terms-of-use">Terms of Use</a> <a href="privacy-policy">Privacy Policy</a> </div> <div class="text-footer1">@2013 - 2018</div> </div>
+</div>
+</div>
+<div class="col-md-2 col-sm-3">
+<div>
+<h3>Информация</h3>
+<ul>
+<li><a href="http://saytest.ru/about_us">About Us</a></li>
+<li><a href="http://saytest.ru/delivery">Delivery Information</a></li>
+<li><a href="http://saytest.ru/privacy">Privacy Policy</a></li>
+<li><a href="http://saytest.ru/terms">Terms &amp; Conditions</a></li>
+<li><a href="contact-us">Контакты</a></li>
+</ul>
+</div>
+</div>
+<div class="col-md-2 col-sm-3">
+<div>
+<h3>Личный Кабинет</h3>
+<ul>
+<li><a href="http://saytest.ru/account/">Личный Кабинет</a></li>
+<li><a href="http://saytest.ru/order-history/">История заказов</a></li>
+<li><a href="http://saytest.ru/wishlist/">Закладки</a></li>
+<li><a href="http://saytest.ru/newsletter/">Рассылка</a></li>
+</ul>
+</div>
+</div>
+<div class="col-md-2 col-sm-3 social">
+<div class="copy">Leader sport &copy; 2018</div> <ul class="social-network">
+<li><a href="vk.com"><i class="fa fa-vk"></i></a></li>
+<li><a href="facebook.com"><i class="fa fa-facebook"></i></a></li>
+</ul>
+<div class="pay-cc">
+<div class="pay">Payment Methods:</div>
+<img class="footer-cc" src="catalog/view/theme/anne/img/cc1.png">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="scroll_top_btn"><a class="fa fa-angle-up" href="#"></a></div>
+<script language="JavaScript" type="text/javascript">
+jQuery(document).ready(function($) {
+var url=document.location.href;
+$.each($("#menu-account li a"),function(){
+if(this.href==url){$(this).addClass('activeCSS');};
+});
+});
+</script>
+</body>
+</html>

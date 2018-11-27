@@ -1,0 +1,1420 @@
+<b>Warning</b>: filesize(): stat failed for /home/wm46776/domains/saytest.ru/public_html/system/storage/cache/cache.category.seopath.1527628258 in <b>/home/wm46776/domains/saytest.ru/public_html/system/library/cache/file.php</b> on line <b>32</b><b>Warning</b>: fread(): Length parameter must be greater than 0 in <b>/home/wm46776/domains/saytest.ru/public_html/system/library/cache/file.php</b> on line <b>32</b><!doctype html>
+<html dir="ltr" lang="ru">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<base href="http://saytest.ru/" />
+<meta name="description" content="Example of category description" />
+<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<!--script type="text/javascript" src="https://getfirebug.com/firebug-lite-debug.js"></script-->
+<!--[if lt IE 9]>
+<script type="text/javascript" src="catalog/view/theme/anne/js/respond.js"></script>
+<style>
+img.img-responsive {max-width:none;width:auto;}
+</style>
+<![endif]-->
+<!--[if gt IE 8]>
+<style>
+img.img-responsive {max-width:none;width:auto;}
+</style>
+<![endif]-->
+<link href='//fonts.googleapis.com/css?family=Montserrat:400,600,700%7COpen+Sans' rel='stylesheet' type='text/css'/>
+<script src="catalog/view/theme/anne/js/jquery-2.1.4.min.js"></script><script src="catalog/view/theme/anne/js/bootstrap.min.js"></script><script src="catalog/view/theme/anne/js/bootstrap-select.min.js"></script><script src="catalog/view/theme/anne/js/jquery.autocomplete.js"></script><script src="catalog/view/theme/anne/js/jquery.colorbox-min.js"></script><script src="catalog/view/theme/anne/js/cloud-zoom.1.0.3.js"></script><script src="catalog/view/theme/anne/js/jquery.flexslider.js"></script><script src="catalog/view/theme/anne/js/moment.js"></script><script src="catalog/view/theme/anne/js/bootstrap-datetimepicker.min.js"></script><script src="catalog/view/theme/anne/js/bootstrap-slider.min.js"></script><script src="catalog/view/theme/anne/js/js.cookie.js"></script><script src="catalog/view/theme/anne/js/main.js"></script><link href='catalog/view/theme/anne/css/bootstrap.css' rel='stylesheet' type='text/css' property='stylesheet'/><link href='catalog/view/theme/anne/css/bootstrap-select.min.css' rel='stylesheet' type='text/css' property='stylesheet'/><link href='catalog/view/theme/anne/css/style.css' rel='stylesheet' type='text/css' property='stylesheet'/><link href='catalog/view/theme/anne/css/colorbox.css' rel='stylesheet' type='text/css' property='stylesheet'/><link href='catalog/view/theme/anne/css/font-awesome.min.css' rel='stylesheet' type='text/css' property='stylesheet'/><link href='catalog/view/theme/anne/css/cloud-zoom.css' rel='stylesheet' type='text/css' property='stylesheet'/><link href='catalog/view/theme/anne/css/flexslider.css' rel='stylesheet' type='text/css' property='stylesheet'/><link href='catalog/view/theme/anne/css/bootstrap-datetimepicker.min.css' rel='stylesheet' type='text/css' property='stylesheet'/><link href='catalog/view/theme/anne/css/editor_settings.css' rel='stylesheet' type='text/css' property='stylesheet'/><script>
+jQuery(document).ready(function() {
+});var opencart_version =2302;var sticky_header =false;jQuery(document).ready(function() {;
+});
+</script>
+<style>
+#parallax_0
+{
+background-image:url("http://saytest.ru/image/cache/catalog/subs-bg-he-1800x465.png");
+margin:0px;
+margin-left:0px;
+margin-right:0px;
+}
+#parallax_0 > div
+{
+position:relative;
+padding:30px;
+padding-left:0px;
+padding-right:0px;
+}
+#parallax_0 > div::before
+{
+background-color: #333333;
+content: "";
+height: 100%;
+left: 0;
+opacity: 0;
+position: absolute;
+top: 0;
+width: 100%;
+z-index: 2;
+}</style><link href="http://saytest.ru/desktops/" rel="canonical" /><link href="http://saytest.ru/desktops/?page=2" rel="next" /><link href="http://saytest.ru/image/catalog/cart.png" rel="icon" /> <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Oswald:300,400,500,600,700|Poppins:300,400,500,600,700&amp;subset=cyrillic" rel="stylesheet">
+<title>Desktops</title>
+</head>
+<body>
+<div class="header">
+<div id="header" class="container2">
+<!-- div class="container" -->
+<div class="left col-sm-4 visible-md visible-lg">
+<!--
+<div class="search-select">
+<div class="search-icon"></div>
+</div>
+<div class="menu-select">
+<div class="menu-select-icon"></div>
+</div>
+-->
+</div>
+<div class="middle col-sm-6 col-md-4 logo-head">
+<div class="logo">
+<a href="http://saytest.ru/" class="image-logo">
+<img src="http://saytest.ru/image/catalog/logo.png" title="Leader sport" alt="Leader sport" class="img-responsive" />
+</a><h4 class="text-logo"><a href="http://saytest.ru/"><span>Leader sport</span></a></h4>
+</div>
+</div>
+<div class="middle col-sm-6 col-md-4 head-right">
+<div class="reg"><a href="/index.php?route=account/login" title="Регистрация"><span class="user-icon"></span> <span class="hidden-xs hidden-sm hidden-md"></span></a></div>
+<div class="wh"><a href="/index.php?route=account/wishlist" title="В избранном (0)"><span class="heart-icon"></span> </a></div>
+<div class="cart-head cart">
+<span class="cart-total-head">0</span>
+<a id="cart" href="http://saytest.ru/cart/" class="dropdown-toggle" data-toggle="dropdown" role="button"><span class="cart-icon"></span>
+</a>
+<div class="cart-info dropdown-menu pull-right" role="menu">
+<div class="shopping-cart-header">
+<h5 class="cart-title">Корзина</span></h5>
+</div>
+<div class="empty">Ваша корзина пуста!</div>
+</div>
+</div>
+<!-- /div -->
+</div>
+<div class="lider-menu">
+<div class="search-col clearfix">
+<form action="/" class="navbar-form navbar-search navbar-right">
+<div class="input-group">
+<button type="submit" class="icon-search"></button>
+<div class="search-100">
+<input type="text" name="search" class="search-query1 col-xs-4" autocomplete="off" placeholder="Поиск" value="" />
+</div>
+</div>
+</form>
+</div>
+<!--cols:12 -->
+<div class="navbar yamm ">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<div class="navbar-header">
+<div class="icons-bar">
+<!--<span class="sr-only">Toggle navigation</span>-->
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</div>
+<div class="navbar-brand visible-xs">Меню</div> </div>
+</button>
+<div class="navbar-collapse collapse">
+<ul class="nav navbar-nav">
+<!-- li><a href=""><span class="home">&#8962;</span></a></li -->
+<li class="mega yamm-fw dropdown "
+>
+<a href=""
+data-toggle="dropdown" class="dropdown-toggle">
+<b class="font_icon fa fa-barss"></b> Категории
+<b class="fa fa-caret-down"></b> </a>
+<ul class="dropdown-menu ">
+<li>
+<!-- Content container to add padding -->
+<div class="yamm-content clearfix">
+<div class="row">
+<ul class="col-sm-3 list-unstyled">
+<li>
+<p class="main-cat"><a href="http://saytest.ru/desktops/"><strong>Desktops</strong></a></p>
+</li>
+<li><a href="http://saytest.ru/desktops/pc/">PC</a></li>
+<li><a href="http://saytest.ru/desktops/mac/">Mac</a></li>
+</ul>
+<ul class="col-sm-3 list-unstyled">
+<li>
+<p class="main-cat"><a href="http://saytest.ru/laptop-notebook/"><strong>Laptops &amp; Notebooks</strong></a></p>
+</li>
+<li><a href="http://saytest.ru/laptop-notebook/macs/">Macs</a></li>
+<li><a href="http://saytest.ru/laptop-notebook/windows/">Windows</a></li>
+</ul>
+<ul class="col-sm-3 list-unstyled">
+<li>
+<p class="main-cat"><a href="http://saytest.ru/component/"><strong>Components</strong></a></p>
+</li>
+<li><a href="http://saytest.ru/component/mouse/">Mice and Trackballs</a></li>
+<li><a href="http://saytest.ru/component/monitor/">Monitors</a></li>
+<li><a href="http://saytest.ru/component/printer/">Printers</a></li>
+<li><a href="http://saytest.ru/component/scanner/">Scanners</a></li>
+<li><a href="http://saytest.ru/component/web-camera/">Web Cameras</a></li>
+</ul>
+<ul class="col-sm-3 list-unstyled">
+<li>
+<p class="main-cat"><a href="http://saytest.ru/mp3-players/"><strong>MP3 Players</strong></a></p>
+</li>
+<li><a href="http://saytest.ru/mp3-players/test11/">test 11</a></li>
+<li><a href="http://saytest.ru/mp3-players/test12/">test 12</a></li>
+<li><a href="http://saytest.ru/mp3-players/test15/">test 15</a></li>
+<li><a href="http://saytest.ru/mp3-players/test16/">test 16</a></li>
+<li><a href="http://saytest.ru/mp3-players/test4/">test 4</a></li>
+</ul>
+</div><div class="row"></div><div class="row"> <ul class="col-sm-3 list-unstyled">
+<li>&nbsp;</li>
+<li><a href="http://saytest.ru/tablet/"><strong>Tablets</strong></a></li>
+<li><a href="http://saytest.ru/software/"><strong>Software</strong></a></li>
+<li><a href="http://saytest.ru/smartphone/"><strong>Phones &amp; PDAs</strong></a></li>
+<li><a href="http://saytest.ru/camera/"><strong>Cameras</strong></a></li>
+</ul>
+</div>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</div><!-- /.navbar-collapse -->
+</div>
+<!--cols:12 -->
+<div class="pull-right hide_on_mobile">
+<div class="dropdown login-box">
+<a data-toggle="dropdown" class="btn btn-link dropdown-toggle" role="button">
+<i class="fa fa-user"></i>
+<span class="hidden-xs hidden-sm hidden-md">login</span> <i class="fa fa-chevron-down"></i></a>
+<div role="menu" class="dropdown-menu">
+<form action="http://saytest.ru/login/" method="post" enctype="multipart/form-data">
+<div class="form-group">
+<label class="control-label" for="input-email">E-Mail</label>
+<input type="text" name="email" value="" placeholder="E-Mail" id="input-email" class="form-control" />
+</div>
+<div class="form-group">
+<label class="control-label" for="input-password">Пароль</label>
+<input type="password" name="password" value="" placeholder="Пароль" id="input-password" class="form-control" />
+</div>
+<input type="submit" value="Войти" class="btn btn-default" />
+<a href="http://saytest.ru/forgot-password/">Забыли пароль?</a>
+</form>
+<h3></h3>
+<a href="http://saytest.ru//index.php?route=module/nicosocialauth&amp;provider=Google">
+<span class="fa-stack fa-lg">
+<i class="fa fa-square fa-stack-2x"></i>
+<i class="fa fa-google fa-stack-1x fa-inverse"></i>
+</span>
+</a>
+<a href="http://saytest.ru//index.php?route=module/nicosocialauth&amp;provider=Facebook">
+<span class="fa-stack fa-lg">
+<i class="fa fa-square fa-stack-2x"></i>
+<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+</span>
+</a>
+<h3>Новый клиент</h3>
+<a href="http://saytest.ru/create-account/" class="btn btn-default">Регистрация</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="notification"></div>
+<div class="page-container">
+<div class="top-banner bgcolor">
+<div class="container">
+<div class="title-wrap">
+<div class="title-wrap-inner">
+<div class="cat_header">
+<h2>Desktops</h2>
+</div>
+<div class="path">
+<ul class="breadcrumb">
+<li><a href="http://saytest.ru/"><i class="fa fa-home"></i></a></li>
+<li><a href="http://saytest.ru/desktops/">Desktops</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="shop-section">
+<div class="container">
+<div class="top-container">
+<div class="row">
+<!--cols:8 -->
+<div class="col-md-8 ">
+<div class="col-sm-3">
+<span class="badge">new</span>
+<div class="two-grid-1">Mountain bike</div>
+<div class="two-grid-3">Track Speed Concept</div>
+<div class="two-grid-button"><a href="#">More info</a></div>
+</div>
+<div class="col-sm-9 skeyt-cat">
+<img src="image/skeyt1.png">
+</div>
+</div>
+<!--cols:4 -->
+<div class="col-md-4 ">
+<div class="col-sm-5">
+<span class="badge">sale</span>
+<div class="two-grid-1">Down Jacket&gt;</div>
+<div class="two-grid-3">Sale Collection<br>2015</div>
+<div class="two-grid-button"><a href="#">More info</a></div><a href="#">
+</a></div><a href="#">
+<div class="perchatka-img">
+<img src="image/perchatka.png">
+</div>
+</a></div>
+</div><div class="row">
+</div>
+</div>
+<div class="row white-bg"> <div class="col-md-3 left-menu">
+<div class="panel-heading">Фильтр</div>
+<div class="panel panel-default nico_filters">
+<div class="list-group group">
+<div class="nico-filter-hover">
+<span class="list-group-item group">Categories</span>
+<div class="list-group-item categories">
+<div id="category-group">
+<label class="checkbox">
+<input name="filter_category[]" type="checkbox" value="26" />
+<span>PC <strong>(0)</strong></span></label>
+<label class="checkbox">
+<input name="filter_category[]" type="checkbox" value="27" />
+<span>Mac <strong>(0)</strong></span></label>
+</div>
+</div>
+</div>
+<div class="nico-filter-hover">
+<span class="list-group-item group">Цена</span>
+<span class="list-group-item priceslider">
+<input id="price-slider" type="text" class="span2" value="" data-slider-enabled="1" data-slider-tooltip="always" data-slider-min="250" data-slider-max="500" data-slider-step="5" data-slider-value="[250,500]" style="display:none"/>
+</span>
+</div>
+<div class="nico-filter-hover">
+<span class="list-group-item group">Размер</span>
+<div class="list-group-item">
+<div id="option-groupРазмер">
+<label class="checkbox">
+<input name="filter_option[]" type="checkbox" value="46" />
+<span>11.5 <strong>(64)</strong></span></label>
+<label class="checkbox">
+<input name="filter_option[]" type="checkbox" value="47" />
+<span>12 <strong>(64)</strong></span></label>
+<label class="checkbox">
+<input name="filter_option[]" type="checkbox" value="48" />
+<span>12.5 <strong>(64)</strong></span></label>
+<label class="checkbox">
+<input name="filter_option[]" type="checkbox" value="52" />
+<span>11 <strong>(64)</strong></span></label>
+<label class="checkbox">
+<input name="filter_option[]" type="checkbox" value="53" />
+<span>10.5 <strong>(64)</strong></span></label>
+<label class="checkbox">
+<input name="filter_option[]" type="checkbox" value="54" />
+<span>10 <strong>(64)</strong></span></label>
+</div>
+</div>
+</div>
+<div class="nico-filter-hover">
+<span class="list-group-item group">Цвет</span>
+<div class="list-group-item">
+<div id="option-groupЦвет">
+<label class="checkbox image">
+<input name="filter_option[]" type="checkbox" value="49" />
+<img src="http://saytest.ru/image/cache/catalog/colors/green-100x100-20x20.gif" alt=""> <span>Зеленый <strong>(64)</strong></span></label>
+<label class="checkbox image">
+<input name="filter_option[]" type="checkbox" value="50" />
+<img src="http://saytest.ru/image/cache/catalog/colors/red-100x100-20x20.gif" alt=""> <span>Красный <strong>(64)</strong></span></label>
+<label class="checkbox image">
+<input name="filter_option[]" type="checkbox" value="51" />
+<img src="http://saytest.ru/image/cache/catalog/colors/blue-100x100-20x20.gif" alt=""> <span>Синий <strong>(64)</strong></span></label>
+</div>
+</div>
+</div>
+<div class="nico-filter-hover">
+<span class="list-group-item group">Manufacturer</span>
+<div class="list-group-item">
+<div id="manufacturer-group">
+<label class="checkbox image">
+<input name="filter_manufacturer[]" type="checkbox" value="8" />
+<span>Apple</span></label>
+</div>
+</div>
+</div>
+</div>
+<div class="panel-footer text-right" style="display:none">
+<button type="button" id="button-filter" class="btn btn-primary">Поиск</button>
+</div>
+</div>
+<script type="text/javascript"><!--
+function nico_filter_change()
+{
+filters = {};
+filter_text = '';
+action = 'http://saytest.ru/desktops/';
+$('.nico_filters input:checked').each(function(element) {
+name = this.name.replace('[]','');
+if (typeof filters[name] == 'undefined') filters[name] = [];
+filters[name].push(this.value);
+});
+for(filter_name in filters)
+{
+filter_text += '&' + filter_name + '=';
+first = true;
+for (filter in filters[filter_name])
+{
+if (!first) filter_text += ',';
+first = false;
+filter_text += filters[filter_name][filter];
+}
+}
+price = $("#price-slider").slider('getValue');
+if (price[0] != $("#price-slider").attr('data-slider-min') || price[1] != $("#price-slider").attr('data-slider-max')) filter_text += '&filter_price_min=' + price[0] + '&filter_price_max=' + price[1];
+if (filters['filter_category']) action += '&path=' + parseInt(filters['filter_category']);
+location = action + filter_text;
+}
+$('#button-filter').on('click', nico_filter_change);
+$("#price-slider").on('slideStop', function() {setTimeout(nico_filter_change, 1500)});
+var _filter_timeout;
+$('.nico_filters input').on('click', function()
+{
+clearTimeout(_filter_timeout);
+_filter_timeout = setTimeout(function () {
+$('#button-filter').click();
+}, 1500);
+});
+//--></script>
+</div>
+<div id="content" class="col-sm-9">
+<div class="row category-info">
+<div class="col-sm-10"><p>
+Example of category description text</p>
+</div>
+</div>
+<div class="row sort_show">
+<div class="col-md-4 text-right first-row">
+<label class="control-label" for="input-sort">Сортировка:</label><select id="input-sort" class="form-control col-sm-3 selectpicker" onchange="location = this.value;">
+<option value="http://saytest.ru/desktops/?sort=p.sort_order&amp;order=ASC" selected="selected">По умолчанию</option>
+<option value="http://saytest.ru/desktops/?sort=pd.name&amp;order=ASC">Название (А - Я)</option>
+<option value="http://saytest.ru/desktops/?sort=pd.name&amp;order=DESC">Название (Я - А)</option>
+<option value="http://saytest.ru/desktops/?sort=p.price&amp;order=ASC">Цена (низкая &gt; высокая)</option>
+<option value="http://saytest.ru/desktops/?sort=p.price&amp;order=DESC">Цена (высокая &gt; низкая)</option>
+<option value="http://saytest.ru/desktops/?sort=rating&amp;order=DESC">Рейтинг (начиная с высокого)</option>
+<option value="http://saytest.ru/desktops/?sort=rating&amp;order=ASC">Рейтинг (начиная с низкого)</option>
+<option value="http://saytest.ru/desktops/?sort=p.model&amp;order=ASC">Модель (А - Я)</option>
+<option value="http://saytest.ru/desktops/?sort=p.model&amp;order=DESC">Модель (Я - А)</option>
+</select>
+</div>
+<div class="col-md-4 text-right two-row">
+<label class="control-label" for="input-limit">Показать:</label><select id="input-limit" class="form-control selectpicker" onchange="location = this.value;">
+<option value="http://saytest.ru/desktops/?limit=15" selected="selected">15</option>
+<option value="http://saytest.ru/desktops/?limit=25">25</option>
+<option value="http://saytest.ru/desktops/?limit=50">50</option>
+<option value="http://saytest.ru/desktops/?limit=75">75</option>
+<option value="http://saytest.ru/desktops/?limit=100">100</option>
+</select>
+</div>
+<div class="col-md-4 three-row">
+<div class="btn-group">
+<button type="button" id="grid-view" class="btn btn-default" data-toggle="tooltip" title="Сетка"><span class="grid-icon"> </button>
+<button type="button" id="list-view" class="btn btn-default" data-toggle="tooltip" title="Список"><span class="list-icon"></button>
+</div>
+<div class="comp-cat"><a href="http://saytest.ru/compare-products/" id="compare-total">Сравнение: <span>0</span></a>
+</div>
+</div>
+</div>
+<div class="refine_categories">
+<h3 class="refine">Выберите подкатегорию</h3>
+<div class="row refine">
+<div class="col-sm-3">
+<ul>
+<li><a href="http://saytest.ru/desktops/pc/">PC (0)</a></li>
+<li><a href="http://saytest.ru/desktops/mac/">Mac (0)</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row products product-layout">
+<div>
+<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 prod">
+<div class="product" data-product-id="96">
+<!--<div class="image hover_img">-->
+<span class="product_sale popular">
+</span>
+<a href="http://saytest.ru/index.php?route=product/product&amp;product_id=96">
+<img class="thumb" src="http://saytest.ru/image/cache/catalog/stol-300x300.jpg" alt="MacBook" />
+<!--<img class="additional_image" src="http://saytest.ru/image/cache/catalog/stol-300x300.jpg" alt="MacBook" />-->
+</a>
+<!--<div class="hover">
+<div>
+<a href="http://saytest.ru/index.php?route=product/product&amp;product_id=96">
+<span class="add-to-cart" onclick="return addToCart('96', '1'); return false"><i class="fa fa-shopping-cart"></i></span>
+<span class="quickview"><i class="fa fa-search "></i></span>
+</a>
+</div>
+</div>-->
+<!--</div>-->
+<div class="actions clearfix">
+<div class="name"><div><a href="http://saytest.ru/index.php?route=product/product&amp;product_id=96">MacBook</a></div></div>
+<div class="rating">
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+</div>
+<div class="description">
+Intel Core 2 Duo processor
+Powered by an Intel Core 2 Duo processor at speeds up to 2.16GHz..</div>
+<div class="price">
+<p>$500.00</p>
+</div>
+<!-- <button class="btn btn-primary btn-sm" onclick="return addToCart('96', '1');">Купить</button>
+-->
+</div>
+<!--Mask hover-->
+<div class="hover-content">
+<div class="category">Mountain bike</div>
+<div class="prod-hover-middle-wrap">
+<div class="prod-hover-middle">
+<div class="prod-hover-left">
+<div class="prod-hover-shop">
+<a class="add-to-cart btn" onclick="return addToCart('96', '1');">Купить<span class="cart-icon-mini"></span></a>
+</div>
+</div>
+<div class="prod-hover-right">
+<div class="prod-hover-compare">
+<a class="compare-button" data-toggle="tooltip" title="В сравнение" onclick="compare.add('96');"></a>
+</div>
+<div class="prod-hover-wish">
+<a class="whish-button" data-toggle="tooltip" title="В закладки" onclick="wishlist.add('96');"></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 prod">
+<div class="product" data-product-id="112">
+<!--<div class="image hover_img">-->
+<a href="http://saytest.ru/index.php?route=product/product&amp;product_id=112">
+<img class="thumb" src="http://saytest.ru/image/cache/catalog/stol-300x300.jpg" alt="MacBook" />
+<!--<img class="additional_image" src="http://saytest.ru/image/cache/catalog/stol-300x300.jpg" alt="MacBook" />-->
+</a>
+<!--<div class="hover">
+<div>
+<a href="http://saytest.ru/index.php?route=product/product&amp;product_id=112">
+<span class="add-to-cart" onclick="return addToCart('112', '1'); return false"><i class="fa fa-shopping-cart"></i></span>
+<span class="quickview"><i class="fa fa-search "></i></span>
+</a>
+</div>
+</div>-->
+<!--</div>-->
+<div class="actions clearfix">
+<div class="name"><div><a href="http://saytest.ru/index.php?route=product/product&amp;product_id=112">MacBook</a></div></div>
+<div class="rating">
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+</div>
+<div class="description">
+Intel Core 2 Duo processor
+Powered by an Intel Core 2 Duo processor at speeds up to 2.16GHz..</div>
+<div class="price">
+<p>$500.00</p>
+</div>
+<!-- <button class="btn btn-primary btn-sm" onclick="return addToCart('112', '1');">Купить</button>
+-->
+</div>
+<!--Mask hover-->
+<div class="hover-content">
+<div class="category">Mountain bike</div>
+<div class="prod-hover-middle-wrap">
+<div class="prod-hover-middle">
+<div class="prod-hover-left">
+<div class="prod-hover-shop">
+<a class="add-to-cart btn" onclick="return addToCart('112', '1');">Купить<span class="cart-icon-mini"></span></a>
+</div>
+</div>
+<div class="prod-hover-right">
+<div class="prod-hover-compare">
+<a class="compare-button" data-toggle="tooltip" title="В сравнение" onclick="compare.add('112');"></a>
+</div>
+<div class="prod-hover-wish">
+<a class="whish-button" data-toggle="tooltip" title="В закладки" onclick="wishlist.add('112');"></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 prod">
+<div class="product" data-product-id="91">
+<!--<div class="image hover_img">-->
+<a href="http://saytest.ru/index.php?route=product/product&amp;product_id=91">
+<img class="thumb" src="http://saytest.ru/image/cache/catalog/stol-300x300.jpg" alt="MacBook" />
+<!--<img class="additional_image" src="http://saytest.ru/image/cache/catalog/stol-300x300.jpg" alt="MacBook" />-->
+</a>
+<!--<div class="hover">
+<div>
+<a href="http://saytest.ru/index.php?route=product/product&amp;product_id=91">
+<span class="add-to-cart" onclick="return addToCart('91', '1'); return false"><i class="fa fa-shopping-cart"></i></span>
+<span class="quickview"><i class="fa fa-search "></i></span>
+</a>
+</div>
+</div>-->
+<!--</div>-->
+<div class="actions clearfix">
+<div class="name"><div><a href="http://saytest.ru/index.php?route=product/product&amp;product_id=91">MacBook</a></div></div>
+<div class="rating">
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+</div>
+<div class="description">
+Intel Core 2 Duo processor
+Powered by an Intel Core 2 Duo processor at speeds up to 2.16GHz..</div>
+<div class="price">
+<p>$500.00</p>
+</div>
+<!-- <button class="btn btn-primary btn-sm" onclick="return addToCart('91', '1');">Купить</button>
+-->
+</div>
+<!--Mask hover-->
+<div class="hover-content">
+<div class="category">Mountain bike</div>
+<div class="prod-hover-middle-wrap">
+<div class="prod-hover-middle">
+<div class="prod-hover-left">
+<div class="prod-hover-shop">
+<a class="add-to-cart btn" onclick="return addToCart('91', '1');">Купить<span class="cart-icon-mini"></span></a>
+</div>
+</div>
+<div class="prod-hover-right">
+<div class="prod-hover-compare">
+<a class="compare-button" data-toggle="tooltip" title="В сравнение" onclick="compare.add('91');"></a>
+</div>
+<div class="prod-hover-wish">
+<a class="whish-button" data-toggle="tooltip" title="В закладки" onclick="wishlist.add('91');"></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 prod">
+<div class="product" data-product-id="107">
+<!--<div class="image hover_img">-->
+<a href="http://saytest.ru/index.php?route=product/product&amp;product_id=107">
+<img class="thumb" src="http://saytest.ru/image/cache/catalog/stol-300x300.jpg" alt="MacBook" />
+<!--<img class="additional_image" src="http://saytest.ru/image/cache/catalog/stol-300x300.jpg" alt="MacBook" />-->
+</a>
+<!--<div class="hover">
+<div>
+<a href="http://saytest.ru/index.php?route=product/product&amp;product_id=107">
+<span class="add-to-cart" onclick="return addToCart('107', '1'); return false"><i class="fa fa-shopping-cart"></i></span>
+<span class="quickview"><i class="fa fa-search "></i></span>
+</a>
+</div>
+</div>-->
+<!--</div>-->
+<div class="actions clearfix">
+<div class="name"><div><a href="http://saytest.ru/index.php?route=product/product&amp;product_id=107">MacBook</a></div></div>
+<div class="rating">
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+</div>
+<div class="description">
+Intel Core 2 Duo processor
+Powered by an Intel Core 2 Duo processor at speeds up to 2.16GHz..</div>
+<div class="price">
+<p>$500.00</p>
+</div>
+<!-- <button class="btn btn-primary btn-sm" onclick="return addToCart('107', '1');">Купить</button>
+-->
+</div>
+<!--Mask hover-->
+<div class="hover-content">
+<div class="category">Mountain bike</div>
+<div class="prod-hover-middle-wrap">
+<div class="prod-hover-middle">
+<div class="prod-hover-left">
+<div class="prod-hover-shop">
+<a class="add-to-cart btn" onclick="return addToCart('107', '1');">Купить<span class="cart-icon-mini"></span></a>
+</div>
+</div>
+<div class="prod-hover-right">
+<div class="prod-hover-compare">
+<a class="compare-button" data-toggle="tooltip" title="В сравнение" onclick="compare.add('107');"></a>
+</div>
+<div class="prod-hover-wish">
+<a class="whish-button" data-toggle="tooltip" title="В закладки" onclick="wishlist.add('107');"></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 prod">
+<div class="product" data-product-id="86">
+<!--<div class="image hover_img">-->
+<a href="http://saytest.ru/index.php?route=product/product&amp;product_id=86">
+<img class="thumb" src="http://saytest.ru/image/cache/catalog/stol-300x300.jpg" alt="MacBook" />
+<!--<img class="additional_image" src="http://saytest.ru/image/cache/catalog/stol-300x300.jpg" alt="MacBook" />-->
+</a>
+<!--<div class="hover">
+<div>
+<a href="http://saytest.ru/index.php?route=product/product&amp;product_id=86">
+<span class="add-to-cart" onclick="return addToCart('86', '1'); return false"><i class="fa fa-shopping-cart"></i></span>
+<span class="quickview"><i class="fa fa-search "></i></span>
+</a>
+</div>
+</div>-->
+<!--</div>-->
+<div class="actions clearfix">
+<div class="name"><div><a href="http://saytest.ru/index.php?route=product/product&amp;product_id=86">MacBook</a></div></div>
+<div class="rating">
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+</div>
+<div class="description">
+Intel Core 2 Duo processor
+Powered by an Intel Core 2 Duo processor at speeds up to 2.16GHz..</div>
+<div class="price">
+<p>$500.00</p>
+</div>
+<!-- <button class="btn btn-primary btn-sm" onclick="return addToCart('86', '1');">Купить</button>
+-->
+</div>
+<!--Mask hover-->
+<div class="hover-content">
+<div class="category">Mountain bike</div>
+<div class="prod-hover-middle-wrap">
+<div class="prod-hover-middle">
+<div class="prod-hover-left">
+<div class="prod-hover-shop">
+<a class="add-to-cart btn" onclick="return addToCart('86', '1');">Купить<span class="cart-icon-mini"></span></a>
+</div>
+</div>
+<div class="prod-hover-right">
+<div class="prod-hover-compare">
+<a class="compare-button" data-toggle="tooltip" title="В сравнение" onclick="compare.add('86');"></a>
+</div>
+<div class="prod-hover-wish">
+<a class="whish-button" data-toggle="tooltip" title="В закладки" onclick="wishlist.add('86');"></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 prod">
+<div class="product" data-product-id="102">
+<!--<div class="image hover_img">-->
+<a href="http://saytest.ru/index.php?route=product/product&amp;product_id=102">
+<img class="thumb" src="http://saytest.ru/image/cache/catalog/stol-300x300.jpg" alt="MacBook" />
+<!--<img class="additional_image" src="http://saytest.ru/image/cache/catalog/stol-300x300.jpg" alt="MacBook" />-->
+</a>
+<!--<div class="hover">
+<div>
+<a href="http://saytest.ru/index.php?route=product/product&amp;product_id=102">
+<span class="add-to-cart" onclick="return addToCart('102', '1'); return false"><i class="fa fa-shopping-cart"></i></span>
+<span class="quickview"><i class="fa fa-search "></i></span>
+</a>
+</div>
+</div>-->
+<!--</div>-->
+<div class="actions clearfix">
+<div class="name"><div><a href="http://saytest.ru/index.php?route=product/product&amp;product_id=102">MacBook</a></div></div>
+<div class="rating">
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+</div>
+<div class="description">
+Intel Core 2 Duo processor
+Powered by an Intel Core 2 Duo processor at speeds up to 2.16GHz..</div>
+<div class="price">
+<p>$500.00</p>
+</div>
+<!-- <button class="btn btn-primary btn-sm" onclick="return addToCart('102', '1');">Купить</button>
+-->
+</div>
+<!--Mask hover-->
+<div class="hover-content">
+<div class="category">Mountain bike</div>
+<div class="prod-hover-middle-wrap">
+<div class="prod-hover-middle">
+<div class="prod-hover-left">
+<div class="prod-hover-shop">
+<a class="add-to-cart btn" onclick="return addToCart('102', '1');">Купить<span class="cart-icon-mini"></span></a>
+</div>
+</div>
+<div class="prod-hover-right">
+<div class="prod-hover-compare">
+<a class="compare-button" data-toggle="tooltip" title="В сравнение" onclick="compare.add('102');"></a>
+</div>
+<div class="prod-hover-wish">
+<a class="whish-button" data-toggle="tooltip" title="В закладки" onclick="wishlist.add('102');"></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 prod">
+<div class="product" data-product-id="97">
+<!--<div class="image hover_img">-->
+<a href="http://saytest.ru/index.php?route=product/product&amp;product_id=97">
+<img class="thumb" src="http://saytest.ru/image/cache/catalog/stol-300x300.jpg" alt="MacBook" />
+<!--<img class="additional_image" src="http://saytest.ru/image/cache/catalog/stol-300x300.jpg" alt="MacBook" />-->
+</a>
+<!--<div class="hover">
+<div>
+<a href="http://saytest.ru/index.php?route=product/product&amp;product_id=97">
+<span class="add-to-cart" onclick="return addToCart('97', '1'); return false"><i class="fa fa-shopping-cart"></i></span>
+<span class="quickview"><i class="fa fa-search "></i></span>
+</a>
+</div>
+</div>-->
+<!--</div>-->
+<div class="actions clearfix">
+<div class="name"><div><a href="http://saytest.ru/index.php?route=product/product&amp;product_id=97">MacBook</a></div></div>
+<div class="rating">
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+</div>
+<div class="description">
+Intel Core 2 Duo processor
+Powered by an Intel Core 2 Duo processor at speeds up to 2.16GHz..</div>
+<div class="price">
+<p>$500.00</p>
+</div>
+<!-- <button class="btn btn-primary btn-sm" onclick="return addToCart('97', '1');">Купить</button>
+-->
+</div>
+<!--Mask hover-->
+<div class="hover-content">
+<div class="category">Mountain bike</div>
+<div class="prod-hover-middle-wrap">
+<div class="prod-hover-middle">
+<div class="prod-hover-left">
+<div class="prod-hover-shop">
+<a class="add-to-cart btn" onclick="return addToCart('97', '1');">Купить<span class="cart-icon-mini"></span></a>
+</div>
+</div>
+<div class="prod-hover-right">
+<div class="prod-hover-compare">
+<a class="compare-button" data-toggle="tooltip" title="В сравнение" onclick="compare.add('97');"></a>
+</div>
+<div class="prod-hover-wish">
+<a class="whish-button" data-toggle="tooltip" title="В закладки" onclick="wishlist.add('97');"></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 prod">
+<div class="product" data-product-id="113">
+<!--<div class="image hover_img">-->
+<a href="http://saytest.ru/index.php?route=product/product&amp;product_id=113">
+<img class="thumb" src="http://saytest.ru/image/cache/catalog/stol-300x300.jpg" alt="MacBook" />
+<!--<img class="additional_image" src="http://saytest.ru/image/cache/catalog/stol-300x300.jpg" alt="MacBook" />-->
+</a>
+<!--<div class="hover">
+<div>
+<a href="http://saytest.ru/index.php?route=product/product&amp;product_id=113">
+<span class="add-to-cart" onclick="return addToCart('113', '1'); return false"><i class="fa fa-shopping-cart"></i></span>
+<span class="quickview"><i class="fa fa-search "></i></span>
+</a>
+</div>
+</div>-->
+<!--</div>-->
+<div class="actions clearfix">
+<div class="name"><div><a href="http://saytest.ru/index.php?route=product/product&amp;product_id=113">MacBook</a></div></div>
+<div class="rating">
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+</div>
+<div class="description">
+Intel Core 2 Duo processor
+Powered by an Intel Core 2 Duo processor at speeds up to 2.16GHz..</div>
+<div class="price">
+<p>$500.00</p>
+</div>
+<!-- <button class="btn btn-primary btn-sm" onclick="return addToCart('113', '1');">Купить</button>
+-->
+</div>
+<!--Mask hover-->
+<div class="hover-content">
+<div class="category">Mountain bike</div>
+<div class="prod-hover-middle-wrap">
+<div class="prod-hover-middle">
+<div class="prod-hover-left">
+<div class="prod-hover-shop">
+<a class="add-to-cart btn" onclick="return addToCart('113', '1');">Купить<span class="cart-icon-mini"></span></a>
+</div>
+</div>
+<div class="prod-hover-right">
+<div class="prod-hover-compare">
+<a class="compare-button" data-toggle="tooltip" title="В сравнение" onclick="compare.add('113');"></a>
+</div>
+<div class="prod-hover-wish">
+<a class="whish-button" data-toggle="tooltip" title="В закладки" onclick="wishlist.add('113');"></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 prod">
+<div class="product" data-product-id="92">
+<!--<div class="image hover_img">-->
+<a href="http://saytest.ru/index.php?route=product/product&amp;product_id=92">
+<img class="thumb" src="http://saytest.ru/image/cache/catalog/stol-300x300.jpg" alt="MacBook" />
+<!--<img class="additional_image" src="http://saytest.ru/image/cache/catalog/stol-300x300.jpg" alt="MacBook" />-->
+</a>
+<!--<div class="hover">
+<div>
+<a href="http://saytest.ru/index.php?route=product/product&amp;product_id=92">
+<span class="add-to-cart" onclick="return addToCart('92', '1'); return false"><i class="fa fa-shopping-cart"></i></span>
+<span class="quickview"><i class="fa fa-search "></i></span>
+</a>
+</div>
+</div>-->
+<!--</div>-->
+<div class="actions clearfix">
+<div class="name"><div><a href="http://saytest.ru/index.php?route=product/product&amp;product_id=92">MacBook</a></div></div>
+<div class="rating">
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+</div>
+<div class="description">
+Intel Core 2 Duo processor
+Powered by an Intel Core 2 Duo processor at speeds up to 2.16GHz..</div>
+<div class="price">
+<p>$500.00</p>
+</div>
+<!-- <button class="btn btn-primary btn-sm" onclick="return addToCart('92', '1');">Купить</button>
+-->
+</div>
+<!--Mask hover-->
+<div class="hover-content">
+<div class="category">Mountain bike</div>
+<div class="prod-hover-middle-wrap">
+<div class="prod-hover-middle">
+<div class="prod-hover-left">
+<div class="prod-hover-shop">
+<a class="add-to-cart btn" onclick="return addToCart('92', '1');">Купить<span class="cart-icon-mini"></span></a>
+</div>
+</div>
+<div class="prod-hover-right">
+<div class="prod-hover-compare">
+<a class="compare-button" data-toggle="tooltip" title="В сравнение" onclick="compare.add('92');"></a>
+</div>
+<div class="prod-hover-wish">
+<a class="whish-button" data-toggle="tooltip" title="В закладки" onclick="wishlist.add('92');"></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 prod">
+<div class="product" data-product-id="108">
+<!--<div class="image hover_img">-->
+<a href="http://saytest.ru/index.php?route=product/product&amp;product_id=108">
+<img class="thumb" src="http://saytest.ru/image/cache/catalog/stol-300x300.jpg" alt="MacBook" />
+<!--<img class="additional_image" src="http://saytest.ru/image/cache/catalog/stol-300x300.jpg" alt="MacBook" />-->
+</a>
+<!--<div class="hover">
+<div>
+<a href="http://saytest.ru/index.php?route=product/product&amp;product_id=108">
+<span class="add-to-cart" onclick="return addToCart('108', '1'); return false"><i class="fa fa-shopping-cart"></i></span>
+<span class="quickview"><i class="fa fa-search "></i></span>
+</a>
+</div>
+</div>-->
+<!--</div>-->
+<div class="actions clearfix">
+<div class="name"><div><a href="http://saytest.ru/index.php?route=product/product&amp;product_id=108">MacBook</a></div></div>
+<div class="rating">
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+</div>
+<div class="description">
+Intel Core 2 Duo processor
+Powered by an Intel Core 2 Duo processor at speeds up to 2.16GHz..</div>
+<div class="price">
+<p>$500.00</p>
+</div>
+<!-- <button class="btn btn-primary btn-sm" onclick="return addToCart('108', '1');">Купить</button>
+-->
+</div>
+<!--Mask hover-->
+<div class="hover-content">
+<div class="category">Mountain bike</div>
+<div class="prod-hover-middle-wrap">
+<div class="prod-hover-middle">
+<div class="prod-hover-left">
+<div class="prod-hover-shop">
+<a class="add-to-cart btn" onclick="return addToCart('108', '1');">Купить<span class="cart-icon-mini"></span></a>
+</div>
+</div>
+<div class="prod-hover-right">
+<div class="prod-hover-compare">
+<a class="compare-button" data-toggle="tooltip" title="В сравнение" onclick="compare.add('108');"></a>
+</div>
+<div class="prod-hover-wish">
+<a class="whish-button" data-toggle="tooltip" title="В закладки" onclick="wishlist.add('108');"></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 prod">
+<div class="product" data-product-id="87">
+<!--<div class="image hover_img">-->
+<a href="http://saytest.ru/index.php?route=product/product&amp;product_id=87">
+<img class="thumb" src="http://saytest.ru/image/cache/catalog/stol-300x300.jpg" alt="MacBook" />
+<!--<img class="additional_image" src="http://saytest.ru/image/cache/catalog/stol-300x300.jpg" alt="MacBook" />-->
+</a>
+<!--<div class="hover">
+<div>
+<a href="http://saytest.ru/index.php?route=product/product&amp;product_id=87">
+<span class="add-to-cart" onclick="return addToCart('87', '1'); return false"><i class="fa fa-shopping-cart"></i></span>
+<span class="quickview"><i class="fa fa-search "></i></span>
+</a>
+</div>
+</div>-->
+<!--</div>-->
+<div class="actions clearfix">
+<div class="name"><div><a href="http://saytest.ru/index.php?route=product/product&amp;product_id=87">MacBook</a></div></div>
+<div class="rating">
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+</div>
+<div class="description">
+Intel Core 2 Duo processor
+Powered by an Intel Core 2 Duo processor at speeds up to 2.16GHz..</div>
+<div class="price">
+<p>$500.00</p>
+</div>
+<!-- <button class="btn btn-primary btn-sm" onclick="return addToCart('87', '1');">Купить</button>
+-->
+</div>
+<!--Mask hover-->
+<div class="hover-content">
+<div class="category">Mountain bike</div>
+<div class="prod-hover-middle-wrap">
+<div class="prod-hover-middle">
+<div class="prod-hover-left">
+<div class="prod-hover-shop">
+<a class="add-to-cart btn" onclick="return addToCart('87', '1');">Купить<span class="cart-icon-mini"></span></a>
+</div>
+</div>
+<div class="prod-hover-right">
+<div class="prod-hover-compare">
+<a class="compare-button" data-toggle="tooltip" title="В сравнение" onclick="compare.add('87');"></a>
+</div>
+<div class="prod-hover-wish">
+<a class="whish-button" data-toggle="tooltip" title="В закладки" onclick="wishlist.add('87');"></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 prod">
+<div class="product" data-product-id="103">
+<!--<div class="image hover_img">-->
+<span class="product_sale popular">
+</span>
+<a href="http://saytest.ru/index.php?route=product/product&amp;product_id=103">
+<img class="thumb" src="http://saytest.ru/image/cache/catalog/stol-300x300.jpg" alt="MacBook" />
+<!--<img class="additional_image" src="http://saytest.ru/image/cache/catalog/stol-300x300.jpg" alt="MacBook" />-->
+</a>
+<!--<div class="hover">
+<div>
+<a href="http://saytest.ru/index.php?route=product/product&amp;product_id=103">
+<span class="add-to-cart" onclick="return addToCart('103', '1'); return false"><i class="fa fa-shopping-cart"></i></span>
+<span class="quickview"><i class="fa fa-search "></i></span>
+</a>
+</div>
+</div>-->
+<!--</div>-->
+<div class="actions clearfix">
+<div class="name"><div><a href="http://saytest.ru/index.php?route=product/product&amp;product_id=103">MacBook</a></div></div>
+<div class="rating">
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+</div>
+<div class="description">
+Intel Core 2 Duo processor
+Powered by an Intel Core 2 Duo processor at speeds up to 2.16GHz..</div>
+<div class="price">
+<p>$500.00</p>
+</div>
+<!-- <button class="btn btn-primary btn-sm" onclick="return addToCart('103', '1');">Купить</button>
+-->
+</div>
+<!--Mask hover-->
+<div class="hover-content">
+<div class="category">Mountain bike</div>
+<div class="prod-hover-middle-wrap">
+<div class="prod-hover-middle">
+<div class="prod-hover-left">
+<div class="prod-hover-shop">
+<a class="add-to-cart btn" onclick="return addToCart('103', '1');">Купить<span class="cart-icon-mini"></span></a>
+</div>
+</div>
+<div class="prod-hover-right">
+<div class="prod-hover-compare">
+<a class="compare-button" data-toggle="tooltip" title="В сравнение" onclick="compare.add('103');"></a>
+</div>
+<div class="prod-hover-wish">
+<a class="whish-button" data-toggle="tooltip" title="В закладки" onclick="wishlist.add('103');"></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 prod">
+<div class="product" data-product-id="77">
+<!--<div class="image hover_img">-->
+<span class="product_sale">
+-50% </span>
+<span class="product_sale popular">
+</span>
+<a href="http://saytest.ru/index.php?route=product/product&amp;product_id=77">
+<img class="thumb" src="http://saytest.ru/image/cache/catalog/stol-300x300.jpg" alt="MacBook" />
+<!--<img class="additional_image" src="http://saytest.ru/image/cache/catalog/stol-300x300.jpg" alt="MacBook" />-->
+</a>
+<!--<div class="hover">
+<div>
+<a href="http://saytest.ru/index.php?route=product/product&amp;product_id=77">
+<span class="add-to-cart" onclick="return addToCart('77', '1'); return false"><i class="fa fa-shopping-cart"></i></span>
+<span class="quickview"><i class="fa fa-search "></i></span>
+</a>
+</div>
+</div>-->
+<!--</div>-->
+<div class="actions clearfix">
+<div class="name"><div><a href="http://saytest.ru/index.php?route=product/product&amp;product_id=77">MacBook</a></div></div>
+<div class="rating">
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+</div>
+<div class="description">
+Intel Core 2 Duo processor
+Powered by an Intel Core 2 Duo processor at speeds up to 2.16GHz..</div>
+<div class="price price_sale">
+<p> <span class="price-new">$250.00 </span> <span class="price-old">$500.00</span></p>
+</div>
+<!-- <button class="btn btn-primary btn-sm" onclick="return addToCart('77', '1');">Купить</button>
+-->
+</div>
+<!--Mask hover-->
+<div class="hover-content">
+<div class="category">Mountain bike</div>
+<div class="prod-hover-middle-wrap">
+<div class="prod-hover-middle">
+<div class="prod-hover-left">
+<div class="prod-hover-shop">
+<a class="add-to-cart btn" onclick="return addToCart('77', '1');">Купить<span class="cart-icon-mini"></span></a>
+</div>
+</div>
+<div class="prod-hover-right">
+<div class="prod-hover-compare">
+<a class="compare-button" data-toggle="tooltip" title="В сравнение" onclick="compare.add('77');"></a>
+</div>
+<div class="prod-hover-wish">
+<a class="whish-button" data-toggle="tooltip" title="В закладки" onclick="wishlist.add('77');"></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 prod">
+<div class="product" data-product-id="98">
+<!--<div class="image hover_img">-->
+<a href="http://saytest.ru/index.php?route=product/product&amp;product_id=98">
+<img class="thumb" src="http://saytest.ru/image/cache/catalog/stol-300x300.jpg" alt="MacBook" />
+<!--<img class="additional_image" src="http://saytest.ru/image/cache/catalog/stol-300x300.jpg" alt="MacBook" />-->
+</a>
+<!--<div class="hover">
+<div>
+<a href="http://saytest.ru/index.php?route=product/product&amp;product_id=98">
+<span class="add-to-cart" onclick="return addToCart('98', '1'); return false"><i class="fa fa-shopping-cart"></i></span>
+<span class="quickview"><i class="fa fa-search "></i></span>
+</a>
+</div>
+</div>-->
+<!--</div>-->
+<div class="actions clearfix">
+<div class="name"><div><a href="http://saytest.ru/index.php?route=product/product&amp;product_id=98">MacBook</a></div></div>
+<div class="rating">
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+</div>
+<div class="description">
+Intel Core 2 Duo processor
+Powered by an Intel Core 2 Duo processor at speeds up to 2.16GHz..</div>
+<div class="price">
+<p>$500.00</p>
+</div>
+<!-- <button class="btn btn-primary btn-sm" onclick="return addToCart('98', '1');">Купить</button>
+-->
+</div>
+<!--Mask hover-->
+<div class="hover-content">
+<div class="category">Mountain bike</div>
+<div class="prod-hover-middle-wrap">
+<div class="prod-hover-middle">
+<div class="prod-hover-left">
+<div class="prod-hover-shop">
+<a class="add-to-cart btn" onclick="return addToCart('98', '1');">Купить<span class="cart-icon-mini"></span></a>
+</div>
+</div>
+<div class="prod-hover-right">
+<div class="prod-hover-compare">
+<a class="compare-button" data-toggle="tooltip" title="В сравнение" onclick="compare.add('98');"></a>
+</div>
+<div class="prod-hover-wish">
+<a class="whish-button" data-toggle="tooltip" title="В закладки" onclick="wishlist.add('98');"></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 prod">
+<div class="product" data-product-id="93">
+<!--<div class="image hover_img">-->
+<a href="http://saytest.ru/index.php?route=product/product&amp;product_id=93">
+<img class="thumb" src="http://saytest.ru/image/cache/catalog/stol-300x300.jpg" alt="MacBook" />
+<!--<img class="additional_image" src="http://saytest.ru/image/cache/catalog/stol-300x300.jpg" alt="MacBook" />-->
+</a>
+<!--<div class="hover">
+<div>
+<a href="http://saytest.ru/index.php?route=product/product&amp;product_id=93">
+<span class="add-to-cart" onclick="return addToCart('93', '1'); return false"><i class="fa fa-shopping-cart"></i></span>
+<span class="quickview"><i class="fa fa-search "></i></span>
+</a>
+</div>
+</div>-->
+<!--</div>-->
+<div class="actions clearfix">
+<div class="name"><div><a href="http://saytest.ru/index.php?route=product/product&amp;product_id=93">MacBook</a></div></div>
+<div class="rating">
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+<span class="fa"><i class="fa fa-star-o"></i></span>
+</div>
+<div class="description">
+Intel Core 2 Duo processor
+Powered by an Intel Core 2 Duo processor at speeds up to 2.16GHz..</div>
+<div class="price">
+<p>$500.00</p>
+</div>
+<!-- <button class="btn btn-primary btn-sm" onclick="return addToCart('93', '1');">Купить</button>
+-->
+</div>
+<!--Mask hover-->
+<div class="hover-content">
+<div class="category">Mountain bike</div>
+<div class="prod-hover-middle-wrap">
+<div class="prod-hover-middle">
+<div class="prod-hover-left">
+<div class="prod-hover-shop">
+<a class="add-to-cart btn" onclick="return addToCart('93', '1');">Купить<span class="cart-icon-mini"></span></a>
+</div>
+</div>
+<div class="prod-hover-right">
+<div class="prod-hover-compare">
+<a class="compare-button" data-toggle="tooltip" title="В сравнение" onclick="compare.add('93');"></a>
+</div>
+<div class="prod-hover-wish">
+<a class="whish-button" data-toggle="tooltip" title="В закладки" onclick="wishlist.add('93');"></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="pagination_wrap row">
+<div class="col-md-6 text-center">
+<div class="row">
+<ul class="pagination"><li class="active"><span>1</span></li><li><a href="/desktops/&page=2">2</a></li><li><a href="/desktops/&page=3">3</a></li><li><a href="/desktops/&page=2">&gt;</a></li><li><a href="/desktops/&page=3">&gt;|</a></li></ul> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var _nico_category_cols = 'col-xs-12 col-sm-6 col-md-4 col-lg-4';
+</script>
+<div id="social_band">
+<div class="container">
+<div class="row">
+<div id="social_about" class="col-md-12">
+<h3>About</h3>
+<div>
+<div><h3>LEADER SPORT</h3></div>
+<div class="text-footer">Aliquam erat volutpat. Maecenas vehicula sapien quis erat interdum aliquam non id <br>ante. </div>
+<div class="url-police"><a href="guides">Guides</a><a href="terms-of-use">Terms of Use</a><a href="privacy-policy">Privacy Policy</a></div>
+<div class="text-footer1">@2013 - 2018</div> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer black">
+<div class="">
+<!--cols:12 -->
+<div class=" ">
+<section id="parallax_0" class="module parallax white">
+<div>
+<div class="container">
+<!--cols:12 -->
+<div class=" ">
+<div class="newsletter clearfix">
+<!-- Begin MailChimp Signup Form -->
+<form action="/index.php?route=account/newsletter"
+class="validate" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
+<div class="text">
+<h3 class="newh3">Подпишитесь на нашу рассылку</h3>
+<div class="newadd"><div>Aliquam erat volutpat. Maecenas vehicula sapien quis erat interdum aliquam non id ante. Nullam tempus sollicitudin elit at consectetur arcu lobortis ac. Duis at mattis ex.</div></div> </div>
+<div class="inputs">
+<input class="email" id="mce-EMAIL" name="EMAIL" placeholder="Ваш почтовый ящик" required="" type="email" value="">
+<input class="button btn btn-primary" name="subscribe" type="submit" value="Tenetur dolorem alias ad veniam voluptatum cupiditate deleniti eos, quia accusamus, autem numquam.">&nbsp;
+<input type="hidden" value="1" name="newsletter">
+</div>
+</form>
+<!--End mc_embed_signup-->
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+<div class="container">
+<!-- div class="arrow"><b class="caret"></b></div -->
+<div class="row">
+<div class="col-md-5 col-sm-3">
+<div>
+<div>
+<div><h3>LEADER SPORT</h3></div>
+<div class="text-footer">Aliquam erat volutpat. Maecenas vehicula sapien quis erat interdum aliquam non id <br>ante. </div>
+<div class="url-police"> <a href="guides">Guides</a> <a href="terms-of-use">Terms of Use</a> <a href="privacy-policy">Privacy Policy</a> </div> <div class="text-footer1">@2013 - 2018</div> </div>
+</div>
+</div>
+<div class="col-md-2 col-sm-3">
+<div>
+<h3>Информация</h3>
+<ul>
+<li><a href="http://saytest.ru/about_us">About Us</a></li>
+<li><a href="http://saytest.ru/delivery">Delivery Information</a></li>
+<li><a href="http://saytest.ru/privacy">Privacy Policy</a></li>
+<li><a href="http://saytest.ru/terms">Terms &amp; Conditions</a></li>
+<li><a href="contact-us">Контакты</a></li>
+</ul>
+</div>
+</div>
+<div class="col-md-2 col-sm-3">
+<div>
+<h3>Личный Кабинет</h3>
+<ul>
+<li><a href="http://saytest.ru/account/">Личный Кабинет</a></li>
+<li><a href="http://saytest.ru/order-history/">История заказов</a></li>
+<li><a href="http://saytest.ru/wishlist/">Закладки</a></li>
+<li><a href="http://saytest.ru/newsletter/">Рассылка</a></li>
+</ul>
+</div>
+</div>
+<div class="col-md-2 col-sm-3 social">
+<div class="copy">Leader sport &copy; 2018</div> <ul class="social-network">
+<li><a href="vk.com"><i class="fa fa-vk"></i></a></li>
+<li><a href="facebook.com"><i class="fa fa-facebook"></i></a></li>
+</ul>
+<div class="pay-cc">
+<div class="pay">Payment Methods:</div>
+<img class="footer-cc" src="catalog/view/theme/anne/img/cc1.png">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="scroll_top_btn"><a class="fa fa-angle-up" href="#"></a></div>
+<script language="JavaScript" type="text/javascript">
+jQuery(document).ready(function($) {
+var url=document.location.href;
+$.each($("#menu-account li a"),function(){
+if(this.href==url){$(this).addClass('activeCSS');};
+});
+});
+</script>
+</body>
+</html>

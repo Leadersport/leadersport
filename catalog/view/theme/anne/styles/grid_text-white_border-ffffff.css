@@ -1,0 +1,21 @@
+div.grid_item > div > div > div > .grid_text  > h3
+{
+	background:transparent;
+	color:#fff;
+}
+
+div.grid_item > div > div > div > .grid_text  > h2
+{
+	background:transparent;
+	border:2px solid #fff;
+	color:#fff;
+	padding:2px 5px;
+}
+
+div.grid_item > div > div > div > .grid_text  > a
+{
+	padding: 1px 0px;
+	background:transparent;
+	border-bottom:2px solid #FFFFFF;
+	color:#fff;
+}

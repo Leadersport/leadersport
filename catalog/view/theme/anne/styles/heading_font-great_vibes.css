@@ -1,0 +1,6 @@
+.tabs .nav-tabs li a,.filters li,.heading h2, #social_band h3, .footer h3
+{
+    font-size:22px;
+    font-family: 'Great Vibes','Vidaloka',Montserrat,'Lato','Open sans', Helvetica, Arial;
+    text-transform:capitalize;
+}

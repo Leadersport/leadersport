@@ -1,0 +1,6 @@
+.navbar .nav > li > a
+{
+	font-family:'Vidaloka';
+	text-transform:capitalize;
+	font-size:14px;
+}

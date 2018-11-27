@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+    <name>Nico - Persistent cart</name>
+    <version>1.0</version>
+    <author>nicole_89</author>
+    <link>http://www.nicolette.ro</link>
+    <code>nico_persistent_cart</code>
+
+
+	<!-- oc 2.0.x-->
+	<file path="system/library/cart.php">		
+		<operation>
+			<search><![CDATA[class Cart {]]></search>
+			<add position="after"><![CDATA[
+	// nico persistent cart
+	function updatePersistentCart() {
+			$opencart_version = (int)str_replace('.','',VERSION);
+
+			$cart_query = array();
+
+			if ($opencart_version < 2200)
+			{
+				if (isset($this->session->data['cart'])) $cart_query = $this->session->data['cart'];
+			} else
+			{
+				$cart_query = $this->db->query("SELECT * FROM " . DB_PREFIX . "cart WHERE api_id = '" . (isset($this->session->data['api_id']) ? (int)$this->session->data['api_id'] : 0) . "' AND customer_id = '" . (int)$this->customer->getId() . "' AND session_id = '" . $this->db->escape($this->session->getId()) . "'");
+
+				if ($cart_query->rows)
+				{
+					$cart_query = $cart_query->rows;
+				} else $cart_query = false; 
+
+			}
+
+			$persistent_cart = array();
+			if (isset($cart_query) && is_array($cart_query))
+			{
+				foreach ($cart_query as $key => $cart) 
+				{
+					if ($opencart_version < 2200) { $qty = $cart;$cart = unserialize(base64_decode($key)); $cart['quantity'] = $qty;}
+
+					$product['product_id'] = $cart['product_id'];
+					$product['quantity'] = isset($cart['quantity'])?$cart['quantity']:1;
+					/*
+					$product['option'] = array();
+					if (isset($cart['option'])) 
+					{
+						$product['option'] = json_decode($cart['option'], true);
+						if ($product['option'] == null) $product['option'] = $cart['option'];
+					}*/
+					
+					$product['option'] = $cart['option'];
+					$product['recurring_id'] = 0;
+					if (isset($cart['recurring_id'])) 
+					{
+						$product['recurring_id'] = $cart['recurring_id'];
+					}
+					
+					$persistent_cart[] = $product;
+				}
+				
+			}
+			setcookie('persistent_cart', json_encode($persistent_cart),  strtotime( '+1 year' ), '/');
+	}
+
+	function restorePersistentCart() {
+	
+		$opencart_version = (int)str_replace('.','',VERSION);
+		
+		if ($opencart_version < 2200)
+		{
+			if (isset($this->session->data['cart']) && is_array($this->session->data['cart']) && !empty($this->session->data['cart'])) return false;
+		} else
+		{
+			//if cart not empty don't insert products
+			$cart_query = $this->db->query("SELECT * FROM " . DB_PREFIX . "cart WHERE api_id = '" . (isset($this->session->data['api_id']) ? (int)$this->session->data['api_id'] : 0) . "' AND customer_id = '" . (int)$this->customer->getId() . "' AND session_id = '" . $this->db->escape($this->session->getId()) . "'");
+			
+			if ($cart_query->rows) return false;
+		}
+		
+		
+		if (!$this->customer->getId() && isset($_COOKIE['persistent_cart'])) {
+			$persistent_cart = json_decode($_COOKIE['persistent_cart'], true);
+			
+			if ($persistent_cart)
+			foreach ($persistent_cart as $cart) {
+				if (!is_array($cart['option'])) $cart['option'] = json_decode($cart['option']);
+				if ($cart['option'] == false) $cart['option'] = array();
+
+				// The advantage of using $this->add is that it will check if the products already exist and increaser the quantity if necessary.
+				$this->add($cart['product_id'], $cart['quantity'], $cart['option'], $cart['recurring_id']);
+			}
+		}
+	}
+]]></add>
+		</operation>
+
+		<operation>
+			<search regex="true" limit="1"><![CDATA[@\$this->session->data\['cart'\] = array\(\);\s+}\s+@]]></search>
+			<add position="replace"><![CDATA[$this->session->data['cart'] = array();
+		}
+		$this->updatePersistentCart();
+		$this->restorePersistentCart();
+				]]></add>
+		</operation>
+		
+		<operation>
+			<!-- clear -->
+			<search regex="true"><![CDATA[@}\s+public function getWeight\(@sm]]></search>
+			<add position="before"><![CDATA[			$this->updatePersistentCart();
+	$0]]></add>
+		</operation>
+		<operation>
+			<!-- remove -->
+			<search regex="true"><![CDATA[@}\s+public function clear\(@sm]]></search>
+			<add position="before"><![CDATA[			$this->updatePersistentCart();
+	$0]]></add>
+		</operation>
+		<operation>
+			<!-- update -->
+			<search regex="true"><![CDATA[@}\s+public function remove\(@sm]]></search>
+			<add position="before"><![CDATA[			$this->updatePersistentCart();
+	$0]]></add>
+		</operation>
+		<operation>
+			<!-- add -->
+			<search regex="true"><![CDATA[@}\s+public function update\(@sm]]></search>
+			<add position="before"><![CDATA[			$this->updatePersistentCart();
+	$0]]></add>
+		</operation>
+
+
+
+	</file>
+	
+	<!-- oc 2.2.x/2.3.x-->
+	<file path="system/library/cart/cart.php">		
+		<operation>
+			<search><![CDATA[class Cart {]]></search>
+			<add position="after"><![CDATA[
+	// nico persistent cart
+	function updatePersistentCart() {
+			$opencart_version = (int)str_replace('.','',VERSION);
+
+			$cart_query = $this->db->query("SELECT * FROM " . DB_PREFIX . "cart WHERE " . (isset($this->session->data['api_id']) ?('api_id = ' .(int)$this->session->data['api_id'] . ' AND '): '') . "' customer_id = '" . (int)$this->customer->getId() . "' AND session_id = '" . $this->db->escape($this->session->getId()) . "'");
+			
+			$persistent_cart = array();
+			if ($cart_query->rows)
+			{
+				foreach ($cart_query->rows as $cart) 
+				{
+					$product['product_id'] = $cart['product_id'];
+					$product['quantity'] = $cart['quantity'];
+					//$product['option'] = json_decode($cart['option']);
+					$product['option'] = $cart['option'];
+					$product['recurring_id'] = $cart['recurring_id'];
+					
+					$persistent_cart[] = $product;
+				}
+			}
+
+			setcookie('persistent_cart', json_encode($persistent_cart),  strtotime( '+1 year' ), '/');
+	}
+
+	function restorePersistentCart() {
+		$opencart_version = (int)str_replace('.','',VERSION);
+		
+		//if cart not empty don't insert products
+		$cart_query = $this->db->query("SELECT * FROM " . DB_PREFIX . "cart WHERE " . (isset($this->session->data['api_id']) ? ('api_id = ' .(int)$this->session->data['api_id'] . ' AND '): '') . "' customer_id = '" . (int)$this->customer->getId() . "' AND session_id = '" . $this->db->escape($this->session->getId()) . "'");
+		
+		if ($cart_query->rows) return false;
+		
+		
+		if (!$this->customer->getId() && isset($_COOKIE['persistent_cart'])) {
+			$persistent_cart = json_decode($_COOKIE['persistent_cart'], true);
+			
+			if ($persistent_cart)
+			foreach ($persistent_cart as $cart) {
+				if (!is_array($cart['option'])) $cart['option'] = json_decode($cart['option']);
+				if ($cart['option'] == false) $cart['option'] = array();
+
+				$this->add($cart['product_id'], $cart['quantity'], $cart['option'], $cart['recurring_id']);
+			}
+		}
+	}
+]]></add>
+		</operation>
+
+		<operation>
+			<search><![CDATA[if ($this->customer->getId()) {]]></search>
+			<add position="before"><![CDATA[
+		$this->updatePersistentCart();
+		$this->restorePersistentCart();
+				]]></add>
+		</operation>
+		
+		<operation>
+			<!-- clear -->
+			<search regex="true"><![CDATA[@}\s+public function getWeight\(@sm]]></search>
+			<add position="before"><![CDATA[			$this->updatePersistentCart();
+	$0]]></add>
+		</operation>
+		<operation>
+			<!-- remove -->
+			<search regex="true"><![CDATA[@}\s+public function clear\(@sm]]></search>
+			<add position="before"><![CDATA[			$this->updatePersistentCart();
+	$0]]></add>
+		</operation>
+		<operation>
+			<!-- update -->
+			<search regex="true"><![CDATA[@}\s+public function remove\(@sm]]></search>
+			<add position="before"><![CDATA[			$this->updatePersistentCart();
+	$0]]></add>
+		</operation>
+		<operation>
+			<!-- add -->
+			<search regex="true"><![CDATA[@}\s+public function update\(@sm]]></search>
+			<add position="before"><![CDATA[			$this->updatePersistentCart();
+	$0]]></add>
+		</operation>
+
+
+	</file>
+
+</modification>

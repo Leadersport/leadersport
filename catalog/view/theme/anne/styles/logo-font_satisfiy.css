@@ -1,0 +1,7 @@
+#logo h1 > a
+{
+    font-weight:400;
+    text-transform:capitalize;
+    font-family:Satisfy, Vidaloka, Lato, 'Open Sans', sans-serif;
+    font-size:27px;
+}

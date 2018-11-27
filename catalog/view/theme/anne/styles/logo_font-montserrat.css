@@ -1,0 +1,5 @@
+#logo h1 > a
+{
+	font-family:'Montserrat';
+	text-transform:capitalize;
+}

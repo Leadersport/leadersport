@@ -1,0 +1,13 @@
+#language{display:block;}
+#currency{display:block;}
+#social_band{display:block;}
+.logo .image-logo{display:none;}
+
+
+
+/* grid_text_vertical_align - grid_text_vertical_align-middle.css */
+
+.grid_item > div > div
+{
+	vertical-align:middle;
+}

@@ -1,0 +1,6 @@
+#logo h1 > a
+{
+	font-family:'Great Vibes';
+	text-transform:capitalize;
+	font-size:56px;
+}

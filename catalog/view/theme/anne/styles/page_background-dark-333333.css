@@ -1,0 +1,65 @@
+body, .header, body#home div#header,.heading.title h2, .filters li, .heading h2,.flex-direction-nav a, .tabs .nav-tabs li a, #social_band, #footer
+{
+	background:#000;
+	color:#fff;
+}
+
+div#header
+{
+	background:#222;
+}
+
+#top, .product_wish_compare button
+{
+	background:#333;
+	color:#fff;
+}
+
+.product_wish_compare button
+{
+	background:#222;
+}
+
+.navbar .nav > li:hover,.yamm .dropdown.yamm-fw .dropdown-menu
+{
+	background:#555;
+}
+
+.navbar .nav > li > a, body#home .navbar .nav > li > a, #logo a,.navbar .nav > li b,.product .name a, .blog-item .readmore,.navbar .nav > li.highlight > a,.product-info h1,.price,.tab-pane,.filters li
+{
+	color:#fff;
+}
+
+#top-links a,.btn.btn-link,#top a,.description p,.blog-title > a,.heading.title h2,.product-info li
+{
+	color:#eee;
+}
+
+
+#logo, .filters li, .blog-item .readmore 
+{
+	border-color:#fff;
+}
+
+.filters li
+{
+	color:#fff;
+}
+
+.product-info #button-cart
+{
+	background:#fff;
+	color:#000;
+}
+
+hr
+{
+	border-color:333;
+}
+
+.product-info input[type="text"] 
+{
+  background:#333333;
+  border: 1px solid #333333;
+  color: #ffffff;
+}

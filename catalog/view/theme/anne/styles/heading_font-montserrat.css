@@ -1,0 +1,6 @@
+.tabs .nav-tabs li a,.filters li,.heading h2, #social_band h3, .footer h3
+{
+    font-size:11px;
+    font-family: Montserrat,'Lato','Open sans', Helvetica, Arial;
+    text-transform:uppercase;
+}

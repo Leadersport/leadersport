@@ -1,0 +1,14 @@
+#logo h1 > a
+{
+	color:#fff;
+}
+
+#logo
+{
+	background:#000;
+}
+
+#logo h1
+{
+	padding:5px 0px 5px 10px;
+}

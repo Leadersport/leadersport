@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+    <name>Nico - Admin theme integration 3.x</name>
+    <version>1.0</version>
+    <code>admin_theme_menu</code>
+    <author>nicole_89</author>
+    <link>http://www.nicolette.ro</link>
+    
+    
+
+    
+    <file path="admin/view/template/common/header.twig">
+        <operation>
+            <search regex="true"><![CDATA[@</ul>\s*<div\s*id="stats">$@m]]></search>
+            <add position="before"><![CDATA[
+  </li>
+  <li id="nicole"><a class="parent" style="background:#104da1;color:#fff;"><i class="fa fa-star fa-fw"></i> <span>Nico</span></a>
+    <ul>
+      <li><a href="<?php echo $home; ?>&amp;route=extension/module/nicocontrolpanel"> - Control panel</a></li>
+      <li><a href="<?php echo $home; ?>&amp;route=extension/module/nicospeedcache/clear_speed_cache">Clear speed cache</a></li>
+      <li><a href="<?php echo $home; ?>&amp;route=extension/module/nicospeedcache/clear_opencart_cache">Clear opencart cache</a></li>
+      <!-- li><a target="_blank" href="http://<?php echo $nico_theme;?>.nicolette.ro/docs/index.html">Documentation</a></li>
+      <li><a target="_blank" href="http://nicolette.ro/faq.html">Theme FAQ</a></li -->
+    </ul>
+  </li>
+  </ul>
+  <div id="stats">]]></add>
+        </operation>
+    </file> 
+    
+</modification>

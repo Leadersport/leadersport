@@ -1,0 +1,21 @@
+div.sequence h2
+{
+	background:transparent;
+	color:#fff;
+	border:none;
+}
+
+div.sequence h3
+{
+	background:transparent;
+	border:none;
+	color:#fff;
+}
+
+div.sequence a.button
+{
+	padding: 7px 0px;
+	background:transparent;
+	border-bottom:none;
+	color:#fff;
+}
